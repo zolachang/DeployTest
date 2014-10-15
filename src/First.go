@@ -9,7 +9,7 @@ import (
 func getuser(w http.ResponseWriter, r *http.Request) {
 	params := r.URL.Query()
 	uid := params.Get(":uid")
-	fmt.Fprintf(w, "you are get userss14 %s", uid)
+	fmt.Fprintf(w, "you are get userss15 %s", uid)
 }
 
 func modifyuser(w http.ResponseWriter, r *http.Request) {
